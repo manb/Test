@@ -1,0 +1,6 @@
+# 此为注释 -- 注释江北Git忽略
+*.a                 #忽略所有.a结尾的文件
+!lib.a              #但lib.a除外
+/TODO               #仅仅忽略项目跟目录下的TODO文件，不包括subdir/TODO
+build/              #忽略build/目录下的所有文件
+doc/*.txt           #忽略doc下面的notes.txt 不薄啊阔doc/server/arch.txt
